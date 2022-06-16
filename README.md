@@ -1,2 +1,3 @@
-# ui_templates_repo
-UI/UX templates for any
+# Projects and UI/UX templates
+
+This Repo Created To Show Simple Projects and UI/UX templates.
