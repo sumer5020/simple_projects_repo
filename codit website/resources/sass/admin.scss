@@ -1,0 +1,128 @@
+.adm {
+    #content {
+        width: 100%;
+        padding: 0;
+        min-height: 100vh;
+        transition: all 0.3s;
+        nav a:hover{
+            border-bottom: 2px solid #555;
+            border-radius: 3px;
+        }
+    }
+    thead {
+        color: white;
+        background: $night;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color: $nightsky;
+    }
+    table{
+        tbody a {
+            text-decoration: underline dashed;
+            text-underline-position: under;
+        }
+        a:hover{
+            color: #009688;
+        }
+        .img-thumbnail{
+            max-width: 50px;
+            max-height: 50px;
+        }
+        td{
+            button{
+                width: 60px;
+            }
+        }
+    }
+    .table-hover tbody tr:hover {
+        background-color: rgba(215, 199, 220, 0.8);
+    }
+    .pagination{
+        margin: 0;
+        .page-link {
+            position: relative;
+            display: block;
+            padding: 0.2rem 0.4rem;
+            background-color:transparent;
+            border:none;
+        }
+        .page-item.disabled .page-link {
+            color: transparent;
+            background-color:transparent;
+        }
+
+        .page-item.active .page-link {
+            z-index: 1;
+            color: #fff;
+            background:linear-gradient(180deg,#f6993f,#f8731b);
+            border-radius: 20%;
+        }
+    }
+    .simpol{
+        font-size: 30px;
+    }
+    .option{
+    a{
+        text-align: center;
+        background-color: #eee;
+        border-radius: 5px;
+    }
+    a:hover{
+        &.fa-trash{
+            color:$red;
+        }
+        color: #009688;
+    }
+    }
+    .ico_thumb{
+        font-size: 80px;
+    }
+    .input-group-addon {
+        padding: 10px 12px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1;
+        color: #555;
+        text-align: center;
+        background-color: #eee;
+        border: 1px solid #ccc;
+    }
+    .card-footer input {
+        border-radius: 0 0 0 10px;
+        outline: none;
+        padding-left: 30px;
+      }
+      .emoji_toggle {
+        bottom: 20px;
+        left: 8px;
+    }
+    .banel1 {
+        padding: 10px;
+    }
+    .emoji {
+        position: absolute;
+        bottom: 70px;
+    }
+    .report{
+        .input-group-addon{
+            padding: 5px;
+            background-color:transparent;
+            border:none;
+            input{
+                color: orange;
+            }
+        }
+        table tbody a {
+            text-decoration: none !important;
+            font-size: 25px;
+            padding: 5px;
+            color: rgba(169, 14, 27, 0.5);
+            transition: 0.5s;
+        }
+        table tbody a:hover {
+            color: $exred;
+        }
+    }
+}

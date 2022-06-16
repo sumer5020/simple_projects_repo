@@ -1,0 +1,120 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Web langs
+    |--------------------------------------------------------------------------
+    */
+
+    'register' => 'Sign Up',
+    'login' => 'Sign In',
+    'email' => 'Email',
+    'address' => 'Address',
+    'password' => 'Password',
+    'usedSameOldPass' => "it's the same old password",
+    'rememberMe' => 'Remember me',
+    'forgotPassword' => 'Forgot password',
+    'name' => 'Name',
+    'userName' => 'User name',
+    'confirm' => 'confirm',
+    'phoneNumber' => 'Phone number',
+    'verify' => 'Verify',
+    'resetPassword' => 'Reset password',
+    'home' => 'Home',
+    'blog' => 'Blog|Blogs',
+    'chat' => 'Chat|Chats',
+    'contact' => 'Contact',
+    'notify' => 'Notification',
+    'author' => 'Author',
+    'offer' => 'Offer|Offers',
+    'portfolio' => 'Portfolio|Portfolios',
+    'profile' => 'Profile',
+    'passwordResetLink' => 'Password reset link',
+    'loading' => 'Loading ...',
+    'followUs' => 'Follow us',
+    'yourName' => 'Your name',
+    'subject' => 'Subject',
+    'message' => 'Message',
+    'contactUs' => 'Contact Us',
+    'contactInfo' => 'Contact information',
+    'logout' => 'Logout',
+    'dashboard' => 'Dashboard',
+    'headerCard' => 'Header card|Header cards',
+    'content' => 'Content',
+    'chart' => 'Chart|Charts',
+    'user' => 'User|Users',
+    'admin' => 'Admin|Admins',
+    'archive' => 'Archive',
+    'setting' => 'Setting|Settings',
+    'Support' => 'Support',
+    'title' => 'Title',
+    'action' => 'Action',
+    'simpol' => 'Simpol',
+    'vid' => 'Video',
+    'image' => 'Image',
+    'catigury' => 'Category',
+    'color' => 'Color',
+    'status' => 'Status',
+    'cost' => 'Cost',
+    'payCount' => 'Pay count',
+    'createDate' => 'Create date',
+    'takeItNow' => 'Take it now',
+    'moreDetails' => 'More details',
+    'extraDetails' => 'Here you can enter your spisific and applay details',
+    'applyDone' => 'Apply is sent successfully we also send email for you',
+    'applyFail' => 'Apply is fail, please try again',
+    'contactEmail' => 'This email that will used to contact',
+    'browser' => 'Browser',
+    'platform' => 'Platform',
+    'conEmail' => 'Contact email',
+    'chatTitle' => 'Supprt chat',
+    'chatStart' => 'Start chatting',
+    'chatStartAnswer' => 'Hi there, how we can help you?',
+    'chatAnswerDelay' => 'Please white we will convert your message to sport team to answer your quistion.',
+    'chatEndAnswer' => 'The sport servic is not avilable at the moument, We are received your message and we will answer soon',
+    'loginToApplay' => 'Login and applay now',
+    'chatbot' => 'Chat Bot',
+    'question' => 'Question',
+    'answer' => 'Answer',
+    'broadcustMessage' => 'Hear you can send Broadcust Message for all Users, also you can messaging one of thim by choise.',
+    'userList' => 'User List',
+    'sender' => 'Sender',
+    'receiver' => 'Receiver',
+    'PrivacyPolicy' => 'Privacy Policy',
+    'PrivacyPolicyDesc' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam inventore aliquid placeat tempore vel
+    voluptate molestias voluptatem, expedita ab dolore consequuntur excepturi neque, ut obcaecati illum officiis dignissimos, pariatur iure?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ipsam dolor adipisci officia a sunt
+    temporibus commodi, esse, magni sit delectus molestias asperiores quos provident nemo ut hic porro nesciunt?',
+    'contactsuccess' => 'the email is sent successfuly',
+    'contactWeWillTakeIt' => 'thanks for your contact',
+    'offerRequest' => 'Offer request|offer requests',
+    'youAreAlreadyFollower' => 'You are already follower',
+    'youAreInFollowersNow' => 'You are in followers now',
+    'manage' => 'Manage',
+    'code' => 'Code',
+    'rule' => 'Rule',
+    'flag' => 'Flag',
+    'trendRelatedPortfolios' => 'Trend related portfolios',
+    'LastRelatedPortfolios' => 'Last related portfolios',
+    'noMorePortfolios' => 'No more portfolios',
+    'adminList' => 'Admin list',
+    'customer' => 'customer|customers',
+    'report' =>'report|teports',
+    'emailVerifiedDate' => 'Email verified date',
+    'reportName' => 'Report name',
+    'fillter' => 'Fillter',
+    //Static content
+    'contactUsDesc' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam inventore aliquid placeat tempore vel
+    voluptate molestias voluptatem, expedita ab dolore consequuntur excepturi neque, ut obcaecati illum officiis dignissimos, pariatur iure?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ipsam dolor adipisci officia a sunt
+    temporibus commodi, esse, magni sit delectus molestias asperiores quos provident nemo ut hic porro nesciunt?',
+
+    'cardTitle' => 'Text no one and tow',
+
+    'cardDisc' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam inventore aliquid placeat tempore vel
+    voluptate molestias voluptatem, expedita ab dolore consequuntur excepturi neque, ut obcaecati illum officiis dignissimos, pariatur iure?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ipsam dolor adipisci officia a sunt
+    temporibus commodi, esse, magni sit delectus molestias asperiores quos provident nemo ut hic porro nesciunt?',
+];
