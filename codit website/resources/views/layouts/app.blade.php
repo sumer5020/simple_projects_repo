@@ -26,7 +26,7 @@
 
     <div id="app">
         @include("layouts.header")
-        <main>
+        <main class="h-screen min-h-screen w-full">
             @yield('content')
         </main>
         @include("layouts.footer")
