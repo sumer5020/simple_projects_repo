@@ -1,0 +1,223 @@
+/* font awesome */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  color: #e0fcfd;
+  background-color: #000;
+  font-family: 'Ubuntu', sans-serif;
+  overflow: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+header{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 200px;
+  z-index: 999;
+  transition: 0.5s ease;
+}
+header .brand {
+  color: #e0fcfd;
+  font-size: 3em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+header .brand img{
+  width: 70px;
+  height: 50px;
+}
+header .navigation {
+  position: relative;
+}
+header .navigation .navigation-items a {
+  position: relative;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 30px;
+  transition: 0.3s ease;
+}
+header .navigation .navigation-items a:before {
+  content: '';
+  position: absolute;
+  background-color: #394f89;
+  width: 0;
+  height: 2px;
+  bottom: -20%;
+  left: -20%;
+  transition: 0.3s ease;
+}
+header .navigation .navigation-items a:hover:before {
+  width: 140%;
+}
+
+section{
+  padding: 100px 200px;
+}
+.home {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background: #000;
+}
+.home:before{
+  z-index: 777;
+  content: '';
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.home .content {
+  width: 70%;
+  margin-top: 50px;
+  z-index: 888;
+  display: none;
+  filter: opacity(0.1) drop-shadow(0px 0px 20px black);
+}
+.ico{
+  width: 50px;
+  height: 50px;
+  display: inline;
+}
+.ico path{
+  display: inline;
+}
+.home .content.active {
+  display: block;
+}
+.home .content h1 {
+  font-size: 4em;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 0px;
+}
+.home .content h1 span {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.home .content p {
+  margin-bottom: 65px;
+}
+.home .content a {
+  color: #4b5fc2;
+  background-color: #e0fcfd;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding: 10px 35px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.home .media-icons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 30px;
+  bottom: 50%;
+  z-index: 999;
+  transition: 0.5s ease;
+}
+.home .media-icons a {
+  color: #e0fcfd;
+  font-size: 1.6em;
+  transition: 0.3s ease
+}
+.home .media-icons a:not(:last-child) {
+  margin-bottom: 20px;
+}
+.home .media-icons a:hover {
+  transform: scale(1.3);
+}
+.home video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 000;
+  object-fit: cover;
+}
+
+.slider-navigation{
+  z-index: 888;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  transform: translateY(80px);
+  font-size: xx-large;
+  font-weight: 900;
+  margin: 2rem 5rem;
+}
+.slider-navigation .nav-btn{
+  color: #eeeeee;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 1s ease;
+  filter: opacity(0.5) blur(1px);
+}
+.slider-navigation .nav-btn.active{
+  color: #ffffff;
+  filter: opacity(1) blur(0px);
+}
+.slider-navigation .nav-btn:not(:last-child){
+  margin-right: 20px;
+}
+.slider-navigation .nav-btn:hover{
+  transform: scale(1.2);
+  filter: opacity(0.7) blur(0px);
+}
+.video-slide {
+  position: absolute;
+  width: 100%;
+  clip-path: circle(0% at 0 50%);
+}
+.video-slide.active {
+  clip-path: circle(150% at 0 50%);
+  transition: 1.5s ease;
+  transition-property: clip-path;
+}
+
+
+@media (max-width: 1040px) {
+  header {
+    padding: 12px 20px;
+  }
+  section {
+    padding: 100px 20px;
+  }
+  .home .media-icons {
+    right: 15px;
+  }
+}
